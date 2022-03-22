@@ -19,6 +19,7 @@ body {
     gap: 5px;
     margin-top: auto;
     margin-bottom: auto;
+    padding-right: 140px;
 }
 .header .leftLinks img {
     max-width: 100%;
@@ -40,8 +41,8 @@ body {
     justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
-    gap: 100px;
-    padding: 5px 5px 5px 20px;
+    gap: 130px;
+    padding: 5px 10px 5px 20px;
     border-radius: 30px;
 }
 .header .searchBar div {
@@ -57,34 +58,53 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     width: auto;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+.hero img {
+    width: 1440px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+.hero .slogan {
+    position: absolute;
+    top: 80%;
+    left: 46.5%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 
-.top_section {
+.host {
     background-color: #000000;
     /*background-image: url(./images/header.jpg);
     background-position: center;
     height: 800px;
     width: auto;
     background-size:cover;*/
-    margin: 0px 0px;
+    margin: 2000px 0px;
 }
-.top_section img {
-    height: 36px;
-    width: auto;
-    margin: 25px;
-}
-.top_section div {
+
+.host div {
     color: white;
     margin: 10px 0 10px 45px;
     font-family: sans-serif;
 }
-.top_section .title {
+.host .title {
     font-size: 16px;
     font-weight:1000;
     letter-spacing: 2px; 
 }
-.top_section .catchphrase {
+.host .catchphrase {
     font-size: 45px;
     font-weight: 1000;
     letter-spacing: 2px;
@@ -92,13 +112,13 @@ body {
     margin-top: 16px;
     margin-bottom: 20px;
 }
-.top_section .incentive {
+.host .incentive {
     font-size: 20px;
     width: 500px;
     line-height: 1.5;
     font-weight: 600;
 }
-.top_section button {
+.host button {
     margin: 16px 0 0 45px;
     background-color: rgb(194, 14, 98);
     color: white;
