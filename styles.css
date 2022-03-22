@@ -29,8 +29,26 @@ body {
     margin: auto;
     color: #FF5A5F;
     font-size: 25px;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+.header .searchBar {
+    display: flex;
+    height: 30px;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 100px;
+    padding: 5px 5px 5px 20px;
+    border-radius: 30px;
+}
+.header .searchBar div {
+    font-size: 13px;
+    margin: auto;
+}
 
 
 .top_section {
