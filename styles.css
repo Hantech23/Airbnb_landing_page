@@ -104,7 +104,71 @@ body {
 }
 
 
-
+/*.hosting {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.hosting img {
+    width: auto;
+    height: auto;
+}    */
+    
+    
+.hosting {
+    background-image: url(./images/header.jpg);
+    width: 1440px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 400px auto 200px;
+    background-position: center;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hosting .text {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 150px 100px;
+    width: 500px;
+    height: 300px;
+    background-color: #3c3d413d;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.hosting .text div, button {
+    color: white;    
+    font-family: sans-serif;
+    padding: 10px 0px 0px 10px;
+}
+.hosting .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.hosting .slogan {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+.hosting .caption {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+.hosting button {
+    background-color: #BD1E59;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
 
 
 
@@ -115,7 +179,6 @@ body {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 600px;
 }
 .footer .copyright {
     
