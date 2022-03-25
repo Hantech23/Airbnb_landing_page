@@ -88,7 +88,7 @@ body {
     font-size: 40px;
     font-weight: 600;
     margin-top: 96px;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
     color: #202329;
 }
 .destinations .container {
@@ -97,25 +97,30 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    
 }
 .destinations .container img {
-    width: 312px;
+    height: 208px;
+    width: 345px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-
-/*.hosting {
-    margin-top: 200px;
+.destinations .caption {
+    width: 1440px;
     display: flex;
-    justify-content: center;
-    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
-.hosting img {
-    width: auto;
-    height: auto;
-}    */
+.destinations .caption div {
+    background-color: rgb(0, 153, 255);
+    width: 345px;
+}
     
-    
+
+
+
 .hosting {
     background-image: url(./images/header.jpg);
     width: 1440px;
@@ -140,7 +145,8 @@ body {
     padding-bottom: 10px;
     border-radius: 5px;
 }
-.hosting .text div, button {
+
+.hosting .text div {
     color: white;    
     font-family: sans-serif;
     padding: 10px 0px 0px 10px;
@@ -163,11 +169,14 @@ body {
     margin-bottom: 24px;
 }
 .hosting button {
+    color: white;
+    font-family: sans-serif;
     background-color: #BD1E59;
     padding: 16px 32px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
+    border: none;
 }
 
 
