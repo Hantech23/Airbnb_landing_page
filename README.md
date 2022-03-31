@@ -1,2 +1,2 @@
-# Airbnb_landing_page
+# Bearbnb
 Airbnb landing page for bears
